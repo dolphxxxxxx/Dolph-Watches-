@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolph Watches</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #003B5C; /* Azul Petróleo */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Menu de Navegação */
+        nav {
+            background-color: #003B5C;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 20px;
+            font-size: 18px;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            color: #00A9E0; /* Azul Marcial */
+        }
+
+        /* Seção de Produtos */
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        .product {
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+        }
+        .product h3 {
+            color: #003B5C; /* Azul Petróleo */
+            font-size: 22px;
+        }
+        .product p {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .buy-button {
+            background-color: #00A9E0; /* Azul Marcial */
+            padding: 10px 20px;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buy-button:hover {
+            background-color: #003B5C; /* Azul Petróleo */
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dolph Watches</h1>
+        <p>Relógios de Luxo para Homens e Mulheres</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="products">
+        <div class="product">
+            <img src="relogio1.jpg" alt="Relógio Clássico">
+            <h3>Relógio Clássico</h3>
+            <p>R$ 499,90</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="product">
+            <img src="relogio2.jpg" alt="Relógio Moderno">
+            <h3>Relógio Moderno</h3>
+            <p>R$ 649,90</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dolph Watches. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
